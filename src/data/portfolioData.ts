@@ -147,11 +147,38 @@ export const careerVision = {
   ],
 };
 
+export const services = {
+  title: "Freelance Services Offered",
+  offerings: [
+    {
+      name: "Web Scraping & Data Extraction",
+      description: "Custom scraping solutions for e-commerce sites, job boards, real estate listings, and more. Handle complex pagination, dynamic content, and anti-scraping measures.",
+      deliverables: ["Clean CSV/JSON datasets", "Automated scraping scripts", "Data validation & quality checks", "Documentation & maintenance"],
+    },
+    {
+      name: "Dashboard Development",
+      description: "Interactive dashboards using Power BI to visualize KPIs, trends, and business metrics. Connect to multiple data sources including SQL databases, Excel files, and APIs.",
+      deliverables: ["Custom Power BI reports", "DAX calculations & measures", "Real-time data refresh", "Drill-down analytics"],
+    },
+    {
+      name: "Data Engineering & ETL",
+      description: "Design and implement data pipelines to extract, transform, and load data from various sources into databases or data warehouses.",
+      deliverables: ["Automated ETL pipelines", "Data cleaning & normalization", "Database schema design", "API integrations"],
+    },
+    {
+      name: "AI/ML Integration",
+      description: "Integrate machine learning models into existing systems for predictive analytics, recommendation engines, or automated decision-making.",
+      deliverables: ["Model training & optimization", "API endpoints for predictions", "Real-time inference systems", "Performance monitoring"],
+    },
+  ],
+};
+
 export const navigation = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "Education", href: "#education" },
   { name: "Vision", href: "#vision" },
+  { name: "Services", href: "#services" },
   { name: "Contact", href: "#contact" },
 ];
