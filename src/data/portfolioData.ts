@@ -2,7 +2,7 @@
 // Simply update the values below to personalize your portfolio
 
 export const personalInfo = {
-  name: "Alex Chen",
+  name: "Shahd",
   title: "Junior Data Engineer",
   tagline: "Transforming Raw Data into Actionable Insights",
   email: "alex.chen@email.com",
