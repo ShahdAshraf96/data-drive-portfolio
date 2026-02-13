@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { personalInfo } from "@/data/portfolioData";
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -50,8 +50,7 @@ export function Footer() {
         {/* Built with */}
         <div className="mt-8 pt-6 border-t border-border/50 text-center">
           <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
-            Built with <Heart className="w-4 h-4 text-primary" /> using React &
-            Tailwind CSS
+            Designed & Built by Shahd
           </p>
         </div>
       </div>
